@@ -1,0 +1,29 @@
+{
+    "name": "mono-page/core",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com/mono-page/core",
+    "type": "library",
+    "authors": [],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "MonoPage\\Core\\": "source"
+        }
+    },
+    "config": {
+        "process-timeout": 1800,
+        "preferred-install": "dist",
+        "preferred-update": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "v0.0.1-dev"
+        }
+    }
+}
