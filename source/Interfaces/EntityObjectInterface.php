@@ -2,7 +2,6 @@
 
 namespace MonoPage\Core\Interfaces;
 
-interface EntityObject
+interface EntityObjectInterface
 {
-
 }

@@ -2,7 +2,6 @@
 
 namespace MonoPage\Core\Interfaces;
 
-interface ValueObject
+interface DataTransferObjectInterface
 {
-
 }
