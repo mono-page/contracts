@@ -4,4 +4,5 @@ namespace MonoPage\Core\Interfaces;
 
 interface EntityObjectInterface
 {
+    public function getId(): string;
 }
