@@ -2,7 +2,7 @@
 
 namespace MonoPage\Core\Interfaces;
 
-interface EntityObjectInterface
+interface EntityInterface
 {
     public function getId(): string;
 }
