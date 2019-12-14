@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MonoPage\Core\Interfaces;
+namespace MonoPage\Contracts;
 
 interface RepositoryInterface
 {
