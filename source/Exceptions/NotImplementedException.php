@@ -2,9 +2,7 @@
 
 namespace Monopage\Contracts\Exceptions;
 
-use Exception;
-
-class NotImplementedException extends Exception implements ExceptionInterface
+class NotImplementedException extends MaintenanceException
 {
     public $message = 'Functionality is not currently implemented';
 }
